@@ -25,14 +25,14 @@
   </dependencies>
  <distributionManagement>
     <repository>
-      <id>card-releases</id>
-      <name>card-releases</name>
-      <url>http://ec2-18-221-178-56.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/card-releases/</url>
+      <id>releases</id>
+      <name>Releases</name>
+      <url>http://18.216.249.255:8081/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
-      <id>card-snapshots</id>
-      <name>card-snapshots</name>
-      <url>http://ec2-18-221-178-56.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/card-snapshots/</url>
+      <id>snapshots</id>
+      <name>Snapshots</name>
+      <url>http://18.216.249.255:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
