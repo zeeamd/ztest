@@ -1,5 +1,5 @@
 env.mvnHome = '/opt/maven'
-node('mavenlabel') {
+node {
    
    
    stage('Preparation') { // for display purposes
