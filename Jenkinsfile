@@ -1,4 +1,4 @@
-env.mvnHome = '/usr/share/maven3'
+env.mvnHome = '/opt/maven'
 node('mavenlabel') {
    
    
