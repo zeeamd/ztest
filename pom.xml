@@ -36,4 +36,19 @@
         <url>http://13.58.68.71:8081/artifactory/JenkinsTestRepo1</url>
     </snapshotRepository>
 </distributionManagement>
+	
+ <build>
+		<finalName>testwebapp</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>tomcat-maven-plugin</artifactId>
+				<configuration>
+					<url>http://18.191.178.160:8080/manager</url>
+					<server>testtomcat</server>
+					<path>/testwebapp</path>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
